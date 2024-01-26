@@ -130,6 +130,18 @@ a {
   margin: 0px;
   color: rgb(34, 34, 34);
 }
+.Pages-BannerDescription {
+  margin: 16px 0px 32px;
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+.Pages-BannerDescription > span {
+  font-size: 17px;
+  font-weight: 700;
+}
 .Pages-BannerMailImgWrap {
   margin: 0px 20px 0px auto;
   width: 65%;
@@ -165,13 +177,20 @@ a {
   .Pages-BannerTitle {
     font-size: 60px;
   }
+  .Pages-BannerDescription {
+    margin: 32px 0px 0px;
+    font-size: 20px;
+  }
+  .Pages-BannerDescription > span {
+    font-size: 22px;
+  }
   .Pages-BannerMailImgWrap {
     position: absolute;
     right: 0px;
     bottom: 0px;
     width: 540px;
   }
-  .pages-BannerMailImg {
+  .Pages-BannerMailImg {
     display: block;
     vertical-align: top;
     width: 100%;
