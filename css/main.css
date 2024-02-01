@@ -18,6 +18,9 @@ main {
 a {
   background-color: transparent;
 }
+div {
+  display: block;
+}
 
 * {
   box-sizing: border-box;
@@ -146,6 +149,21 @@ a {
   margin: 0px 20px 0px auto;
   width: 65%;
 }
+.Pages-SectionWrap {
+  padding: 48px 0px 20px;
+}
+.Pages-TitleWrap {
+  position: relative;
+  margin-left: 16px;
+}
+.AfterTitle {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  color: rgb(38, 38, 38);
+}
 
 @media (min-width: 1280px) {
   .Nav-NavTopWrap {
@@ -195,5 +213,20 @@ a {
     vertical-align: top;
     width: 100%;
     user-select: none;
+  }
+  .Pages-SectionWrap {
+    padding: 0px;
+  }
+  .Pages-SectionContentWrap1 {
+    position: relative;
+    margin: 0px auto;
+    padding: 180px 0px 120px;
+    width: 1200px;
+  }
+  .Pages-TitleWrap {
+    margin-left: 0px;
+  }
+  .AfterTitle {
+    font-size: 40px;
   }
 }
