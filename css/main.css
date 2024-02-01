@@ -229,4 +229,11 @@ div {
   .AfterTitle {
     font-size: 40px;
   }
+  .Titleimg {
+    position: absolute;
+    display: block;
+    bottom: -20px;
+    right: -50px;
+    width: 92px;
+  }
 }
