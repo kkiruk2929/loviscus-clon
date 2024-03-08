@@ -1,0 +1,165 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+div {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Nav-Wrap {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.Nav-NavTopWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-Logo {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.Nav-LogoImg {
+  width: 172px;
+}
+
+.Nav-NavWrapPC {
+  display: flex;
+  margin: 0px 0px 0px 70px;
+}
+
+.Nav-NavItem {
+  margin: 0px;
+  padding: 15px 10px 15px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(38, 38, 38);
+  color: inherit;
+  text-decoration: none;
+}
+
+.Nav-NavTopRight {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.Nav-SubmitWrap {
+  display: flex;
+}
+
+.Nav-InquiryBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 45px;
+  color: rgb(255, 74, 91);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 100px;
+  border: 1px solid rgb(255, 73, 91);
+}
+
+.Nav-SubmitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 136px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(255, 74, 91);
+  border-radius: 100px;
+  border: 1px solid rgb(255, 73, 91);
+  cursor: pointer;
+}
+.column-Wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column-TitleWrap {
+  padding: 85px 170px 0px;
+}
+.Title {
+  font-weight: 600;
+  line-height: 100%;
+  color: rgb(38, 38, 38);
+}
+.column-PostItemWrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.column-item {
+  display: block;
+  padding: 20px 16px;
+  width: 50%;
+  cursor: pointer;
+}
+.column-img {
+  display: block;
+  padding: 20px 30px;
+  width: 110%;
+  cursor: pointer;
+}
+.column-title {
+  font-weight: 600;
+  color: rgb(45, 45, 45);
+  padding: 30px;
+}
+
+@media (min-width: 1280px) {
+  .Nav-NavTopWrap {
+    padding: 24px 0px;
+    margin: 0px auto;
+    width: 1200px;
+  }
+  .Nav-SubmitWrap {
+    display: flex;
+  }
+  .Nav-NavItem:first-child {
+    padding: 15px 20px 15px 0px;
+  }
+  .Nav-NavItem {
+    font-size: 16px;
+  }
+  .Title {
+    font-size: 40px;
+  }
+  .column-item {
+    width: 25%;
+  }
+}
