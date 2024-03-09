@@ -18,11 +18,6 @@ async function renderColumns() {
   columnWrapEl.innerHTML = columnsHtml;
 }
 
-async function clearColumns() {
-  const columnWrapEl = document.querySelector('.column-wrap');
-  columnWrapEl.innerHTML = '';
-}
-
 // 딱 아래꺼만 가져가서 쓰고 이게 뭔지 제대로 숙지
 /**
 

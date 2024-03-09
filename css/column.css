@@ -117,11 +117,10 @@ div {
   flex-wrap: wrap;
 }
 .column-TitleWrap {
-  padding: 85px 170px 0px;
+  padding: 100px 0px 0px 120px;
 }
 .Title {
   font-weight: 600;
-  line-height: 100%;
   color: rgb(38, 38, 38);
 }
 .column-PostItemWrap {
@@ -163,13 +162,15 @@ div {
   }
   .Nav-NavWrapPC {
     display: flex;
-    margin: 0px 0px 0px 70px;
+    margin: 0px 70px 0px 70px;
   }
   .Nav-NavWrap {
     display: none;
   }
   .Title {
     font-size: 40px;
+  }
+  .column-TitleWrap {
   }
   .column-item {
     width: 25%;
