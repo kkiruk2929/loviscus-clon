@@ -57,6 +57,11 @@ div {
 .Nav-NavWrapPC {
   display: none;
 }
+.Nav-NavWrap {
+  display: flex;
+  width: 100%;
+  padding-left: 5px;
+}
 
 .Nav-NavItem {
   margin: 0px;
@@ -106,45 +111,6 @@ div {
   border: 1px solid rgb(255, 73, 91);
   cursor: pointer;
 }
-.Nav-NavWrap {
-  display: flex;
-  width: 100%;
-  padding-left: 5px;
-}
-.column-Wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.column-TitleWrap {
-  padding: 85px 170px 0px;
-}
-.Title {
-  font-weight: 600;
-  line-height: 100%;
-  color: rgb(38, 38, 38);
-}
-.column-PostItemWrap {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.column-item {
-  display: block;
-  padding: 20px 16px;
-  width: 50%;
-  cursor: pointer;
-}
-.column-img {
-  display: block;
-  padding: 20px 30px;
-  width: 110%;
-  cursor: pointer;
-}
-.column-title {
-  font-weight: 600;
-  color: rgb(45, 45, 45);
-  padding: 30px;
-}
 
 @media (min-width: 1280px) {
   .Nav-NavTopWrap {
@@ -165,13 +131,8 @@ div {
     display: flex;
     margin: 0px 0px 0px 70px;
   }
+
   .Nav-NavWrap {
     display: none;
-  }
-  .Title {
-    font-size: 40px;
-  }
-  .column-item {
-    width: 25%;
   }
 }

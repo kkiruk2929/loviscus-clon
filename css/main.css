@@ -2,7 +2,7 @@ body,
 html {
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -34,7 +34,8 @@ div {
   left: 0px;
   width: 100%;
   z-index: 100;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.024) 0px 10px 15px;
 }
 
 .Nav-NavTopWrap {
@@ -54,8 +55,7 @@ div {
 }
 
 .Nav-NavWrapPC {
-  display: flex;
-  margin: 0px 0px 0px 70px;
+  display: none;
 }
 
 .Nav-NavItem {
@@ -106,10 +106,16 @@ div {
   border: 1px solid rgb(255, 73, 91);
   cursor: pointer;
 }
+.Nav-NavWrap {
+  display: flex;
+  width: 100%;
+  padding-left: 5px;
+}
 .Pages-Wrap {
   padding: 0px 0px 50px;
   width: 100%;
 }
+
 .Pages-BannerWrap {
   position: relative;
   display: flex;
@@ -179,6 +185,14 @@ div {
   }
   .Nav-NavItem {
     font-size: 16px;
+  }
+  .Nav-NavWrapPC {
+    display: flex;
+    margin: 0px 0px 0px 70px;
+  }
+
+  .Nav-NavWrap {
+    display: none;
   }
   .Pages-Wrap {
     padding: 0px 0px 150px;
