@@ -18,6 +18,7 @@ INSERT INTO memo (`user_id`, `content`) VALUES ('lee jun', '너무 좋아요~');
 INSERT INTO memo (`user_id`, `content`) VALUES ('doodoo', '진짜 구려요 쓰레기에요 씨발~~');
 INSERT INTO memo (`user_id`, `content`) VALUES ('붐바야', '그냥 그렇네요!!!!!!');
 INSERT INTO memo (`user_id`, `content`) VALUES ('아이구', '그냥 저냥 쓸게요!');
+INSERT INTO memo (`user_id`, `content`) VALUES ('몰러', '걍씀');
 
 -- created_date의 순으로 정렬해서 가져오기, 최대 10개
 SELECT id, user_id, content, created_date FROM memo ORDER BY created_date ASC LIMIT 10;
