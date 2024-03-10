@@ -57,11 +57,6 @@ div {
 .Nav-NavWrapPC {
   display: none;
 }
-.Nav-NavWrap {
-  display: flex;
-  width: 100%;
-  padding-left: 5px;
-}
 
 .Nav-NavItem {
   margin: 0px;
@@ -111,20 +106,10 @@ div {
   border: 1px solid rgb(255, 73, 91);
   cursor: pointer;
 }
-.review-Wrap {
-  position: relative;
-  padding: 100px 0px 0px;
-  width: 100%;
-  min-height: 100vh;
-}
-.review-TitleWrap {
+.Nav-NavWrap {
   display: flex;
-  justify-content: space-between;
-  padding: 30px 16px 0px;
-}
-.Title {
-  margin: 0px;
-  font-weight: 600;
+  width: 100%;
+  padding-left: 5px;
 }
 
 @media (min-width: 1280px) {
@@ -146,16 +131,7 @@ div {
     display: flex;
     margin: 0px 70px 0px 70px;
   }
-
   .Nav-NavWrap {
     display: none;
-  }
-  .review-Wrap {
-    padding: 100px 0px 150px;
-    margin: 0px auto;
-    max-width: 1200px;
-  }
-  .Title {
-    font-size: 40px;
   }
 }

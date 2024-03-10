@@ -116,12 +116,19 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.column-Wrap1 {
+  position: relative;
+  padding: 100px 0px 0px;
+  width: 100%;
+}
 .column-TitleWrap {
-  padding: 100px 0px 0px 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 16px 0px;
 }
 .Title {
+  margin: 0px;
   font-weight: 600;
-  color: rgb(38, 38, 38);
 }
 .column-PostItemWrap {
   max-width: 1000px;
@@ -167,10 +174,13 @@ div {
   .Nav-NavWrap {
     display: none;
   }
+  .column-Wrap1 {
+    padding: 100px 0px 0px;
+    margin: 0px auto;
+    max-width: 1200px;
+  }
   .Title {
     font-size: 40px;
-  }
-  .column-TitleWrap {
   }
   .column-item {
     width: 25%;
